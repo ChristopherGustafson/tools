@@ -1,0 +1,20 @@
+# 'brew tap'
+tap "homebrew/cask"
+
+# Binaries
+brew 'coreutils' # Those that come with macOS are outdated
+brew 'git'
+brew 'mackup'
+brew 'mas' # Mac App Store manager
+
+# Development
+brew 'nvm'
+
+# Apps
+cask '1password'
+cask 'docker'
+cask 'google-chrome'
+cask 'firefox'
+cask 'microsoft-edge'
+cask 'slack'
+cask 'visual-studio-code'
