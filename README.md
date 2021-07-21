@@ -4,19 +4,41 @@ At some point in my early software development career, I realised that tools pla
 
 ## Table of Contents
 
-I will add an table of contents for the whole repo here at some point.
+- [Code Analysis and Formatting](#code-analysis-and-formatting)
+- [Debugging](#debugging)
+- [CI/CD](#ci/cd)
+- [Terminal](#terminal)
+- [Other Tools](#other-tools-i-use)
+- [How I feel when my tools are on point 🔨](#how-i-feel-when-my-tools-are-on-point)
 
-## VS Code
+## Code Analysis and Formatting
 
-[VS Code](https://code.visualstudio.com/) is my editor of choice.
+- [ESLint](https://eslint.org/)
+  - Great JS linter with a large community.
+- [Prettier](https://prettier.io/)
+  - Code formatter that keeps code clean and synced for all project members.
 
-## Version Control
+In recent times I have been using ESLint in combination with Prettier for all my JS projects. My personally preferred baseline configurations for both are found in [configurations](./configurations), but they should always be adjusted to the project/team they are used for. I use these together with their respective VS Code extensions.
 
-## Code Analysis
+Other tools I have used in the past, that are also useful are:
+
+- [DeepSource](https://deepsource.io/)
+  - Code review tool that analyzes your Git repository to find errors, very simple to set up. Errors are reported in the DeepSource dashboard, so it would be good practice to set it up and look at it for every code change, or just have it as an extra source of code analysis.
+- [CodeQL](https://securitylab.github.com/tools/codeql/)
+  - Similar tool to DeepSource. Code Analysis tool, developed by GitHub, which is super simple to setup directly in the security tab of a GitHub repo.
 
 ## Debugging
 
-## Code Formatting
+I often find myself falling back into bad patterns of using console.log or printf way too often, when there are great debuggers out there that does the job way more effectively. Here are some good debugger tools to remind myself to use them:
+
+- Chrome Devtools
+  - Google Chromes own devtools usually does the trick for me when debugging JS. [Here](https://developer.chrome.com/docs/devtools/javascript/) is a neat tutorial explaining some of its features.
+- [VS Code Debugging](https://code.visualstudio.com/docs/editor/debugging)
+  - VS Code also has a built in debugger with out of the box support for JS, including Node and TypeScript, and have available extensions for most of the major programming languages.
+
+## CI/CD
+
+TODO
 
 ## Terminal
 
@@ -26,8 +48,21 @@ This is a collection of the tools and configurations I use for my terminal.
   - With font: SF Mono Regular 12
 - [Oh My Zsh](https://ohmyz.sh/)
   - Theme: [bureau](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#bureau)
-- Configurations are found in [dotfiles](../dotfiles/)
+- Configurations are found in [dotfiles](./dotfiles)
 
-## How I feel when my tools are on point 🔨
+## Other Tools I use
+
+The rest of the tools that didn't make a complete category, but which I still use and are helpful.
+
+- [Emmet](https://emmet.io/)
+  - A great tool for any web development project, included with VS Code out the box. Provides useful snippets and commands to speed up web development coding. Trying to learn the emmet shortcuts can greatly improve your coding speed.
+
+Some sweet VS Code extensions that I regurlary use.
+
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
+- [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
+
+## How I feel when my tools are on point
 
 ![Tool](https://media.giphy.com/media/UsBd9xeRVKGbqc94vg/giphy.gif)
