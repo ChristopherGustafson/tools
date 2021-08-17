@@ -36,6 +36,16 @@ I often find myself falling back into bad patterns of using console.log or print
 - [VS Code Debugging](https://code.visualstudio.com/docs/editor/debugging)
   - VS Code also has a built in debugger with out of the box support for JS, including Node and TypeScript, and have available extensions for most of the major programming languages.
 
+## Testing
+
+Proper testing, being one of those things that we all know we should do but never feel like we do enough of, can be improved a lot by good usage of testing tools. Here are some of the ones I have enjoyed using in the past:
+
+- [Jest](https://jestjs.io/)
+  - A simple to use JavaScript testing framework. Very easy to use for unit testing of any JS or js framework application.
+  - Neat feature: code coverage. With the `--coverage` flag you can generate a report of how much of your code is covered with your tests. This is a nice feature to know how well you actually test your code.
+- [Cypress](https://docs.cypress.io/guides/overview/why-cypress)
+  - For End to End testing of web applications. Neat interface and easy to setup and write tests.
+
 ## CI/CD
 
 TODO
@@ -66,3 +76,7 @@ Some sweet VS Code extensions that I regurlary use.
 ## How I feel when my tools are on point
 
 ![Tool](https://media.giphy.com/media/UsBd9xeRVKGbqc94vg/giphy.gif)
+
+```
+
+```
