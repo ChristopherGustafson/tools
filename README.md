@@ -58,6 +58,8 @@ This is a collection of the tools and configurations I use for my terminal.
   - With font: SF Mono Regular 12
 - [Oh My Zsh](https://ohmyz.sh/)
   - Theme: [bureau](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#bureau)
+- [asdf](https://asdf-vm.com/)
+  - Awesome for handling multiple runtime versions with the same tool. 
 - Configurations are found in [dotfiles](./dotfiles)
 
 ## Other Tools I use
